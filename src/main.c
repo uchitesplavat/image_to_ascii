@@ -105,3 +105,4 @@ void printingAscii(struct Structure *Pixel, int size, char *scale, unsigned int 
 //    for (int i = 0; i <= width * height)
     //unsigned char *new_img = malloc(3 * sizeof(unsigned char) * width * height)
 //}
+08.06.20
