@@ -2489,7 +2489,7 @@ STBIRDEF int stbir_resize_uint8_srgb(const unsigned char *input_pixels , int inp
         STBIR_EDGE_CLAMP, STBIR_EDGE_CLAMP, STBIR_COLORSPACE_SRGB);
 }
 
-STBIRDEF int stbir_resize_uint8_srgb_edgemode(const unsigned char *input_pixels , int input_w , int input_h , int input_stride_in_bytes,
+STBIRDEF int stbir__uint8_srgb_edgemode(const unsigned char *input_pixels , int input_w , int input_h , int input_stride_in_bytes,
                                                     unsigned char *output_pixels, int output_w, int output_h, int output_stride_in_bytes,
                                               int num_channels, int alpha_channel, int flags,
                                               stbir_edge edge_wrap_mode)
